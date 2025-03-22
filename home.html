@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
+        .hero {
+            text-align: right;
+            color: #000000;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 450px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: brown;
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .box {
+            text-align: center;
+            line-height: 100px;
+        }
+        .img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <style>
+        /* Media Queries */
+        @media screen and (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .gallery img {
+                width: 150px;
+            }
+            .hero {
+                padding: 30px;
+            }
+            .section {
+                padding: 30px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .navbar a {
+                padding: 10px;
+            }
+            .gallery img {
+                width: 120px;
+            }
+            .hero {
+                padding: 20px;
+            }
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#pam">Pam</a>
+        <a href="#info">Info</a>
+        <a href="#Project">Project<sup>[44]</sup></a>
+    </div>
+    <div class="container">
+        <div class="box">Selected Work</div>
+        <div class="box"><u>View all work</u></div>
+    </div>
+    <div class="section" id="pam" style="background-color: green">
+        <div class="gallery">
+            <img src="image1.avif" alt="Modern Edition">
+        </div>
+    </div>
+    <div class="section" id="pam" style="background-color: orchid">
+        <h2>Fratelli Rossie</h2>
+        <div class="gallery">
+            <img src="image4.avif" alt="Modern Edition">
+        </div>
+    </div>
+    <div class="section" id="merchants" style="background-color: greenyellow">
+        
+        <h2>Goodmod Edition</h2>
+        <div class="gallery">
+            <img src="image3.avif" alt="Modern Edition">
+        </div>
+        
+    </div>
+    <div class="section" id="stores" style="background-color: greenyellow">
+        <h2>Rebellion</h2>
+        <div class="gallery" >
+            <img src="image2.avif" alt="Modern Edition">
+        </div>
+    </div>
+    <div class="section" id="stores" style="background-color: greenyellow">
+        <h2>What</h2>
+        <div class="gallery">
+            <img src="image5.avif" alt="Modern Edition">
+        </div>
+    </div>
+    <div class="section" id="stores" style="background-color: greenyellow">
+        <h2>Merch</h2>
+        <div class="gallery">
+            <img src="image6.avif" alt="Modern Edition">
+        </div>
+    </div>
+    <div class="footer">
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px; background-color: brown; color: white;">
+            <div>
+                <h3>Agency</h3>
+            </div>
+            
+            <div>
+                <h3>Support</h3>
+            </div>
+            
+            <div>
+                <h3>Learn More</h3>
+                <p><a href="#about" style="color: #ddd; text-decoration: none;">About Us</a></p>
+                <p><a href="#contact" style="color: #ddd; text-decoration: none;">Contact</a></p>
+                <p><a href="#careers" style="color: #ddd; text-decoration: none;">Careers</a></p>
+            </div>
+        </div>
+        <div style="text-align: center; background-color: brown; padding: 10px; color: white;">
+            <p>&copy; 2025 Shoes Website | Designed for Comfort & Style</p>
+        </div>
+    </div>
+</body>
+</html>
